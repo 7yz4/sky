@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lyricssky",
+  "version": "${version}",
+  "name": "Lyrics Sky",
+  "description": "Zeigt die Spotify-Lyrics des aktuellen Songs am Himmel.",
+  "authors": ["du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.lyricsky.LyricsSkyMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
